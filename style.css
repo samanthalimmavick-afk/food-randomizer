@@ -1,0 +1,40 @@
+img {
+    width: 200px;
+}
+
+body {
+    background-color: #ff8000;
+}
+
+.card {
+    border: ridge;
+    border-width: 2px;
+    width: 450px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 67px;
+}
+
+button {
+    border-radius: 15px;
+    width: 80%;
+    height: 50px;
+    background-color: #ff8000;
+    box-shadow: 8px 8px #f00800;
+    border: solid;
+    color: #f00800;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 75%;
+    height: 45px;
+}
